@@ -65,6 +65,69 @@ export const experience = [
 
 export const projects = [
   {
+    id: "MOD-10",
+    tag: "Full-Stack",
+    title: "Sistem Manajemen Proyek & Tim",
+    bullets: [
+      "Aplikasi internal untuk manajemen proyek, task, absensi, work log, dan pengajuan cuti tim, lengkap dengan role & permission.",
+      "Backend REST API dengan Express.js dan Prisma ORM ke MySQL, autentikasi JWT dan middleware otorisasi berbasis role.",
+      "Frontend React 19 + Vite dengan Zustand untuk state management dan kalender jadwal interaktif (FullCalendar).",
+    ],
+    stack: ["React", "Vite", "Zustand", "Express.js", "Prisma", "MySQL", "JWT"],
+  },
+  {
+    id: "MOD-09",
+    tag: "Studi Kasus Teknis",
+    title: "Order Service API",
+    bullets: [
+      "REST API pengelolaan produk, customer, dan pesanan sebagai studi kasus teknis, dengan arsitektur berlapis handler → service → repository → domain.",
+      "Pengurangan stok atomik lewat UPDATE berkondisi di database dan transaksi dibungkus rollback otomatis saat error.",
+      "State machine status pesanan dan price snapshot (price_at_order) agar riwayat pesanan tidak berubah saat harga produk diperbarui.",
+    ],
+    stack: ["Go", "Gin", "SQLite", "database/sql"],
+  },
+  {
+    id: "MOD-08",
+    tag: "Full-Stack",
+    title: "Simple Messaging App",
+    bullets: [
+      "Aplikasi chat real-time dengan autentikasi JWT (access & refresh token) dan WebSocket untuk pengiriman pesan instan.",
+      "Backend Go + Fiber dengan GORM ke MySQL, password di-hash dengan bcrypt.",
+      "Riwayat pesan tersimpan ke database dan notifikasi browser untuk pesan masuk.",
+    ],
+    stack: ["Go", "Fiber", "GORM", "MySQL", "WebSocket", "JWT"],
+  },
+  {
+    id: "MOD-07",
+    tag: "REST API",
+    title: "Blog API",
+    bullets: [
+      "RESTful API CRUD artikel blog (create, read, update, delete) dengan arsitektur modular — handler, service, dan repository terpisah.",
+      "Dibangun dengan Go dan Gin, penyimpanan data di MySQL, migrasi database lewat script SQL.",
+    ],
+    stack: ["Go", "Gin", "MySQL", "REST API"],
+  },
+  {
+    id: "MOD-06",
+    tag: "Mobile — Flutter",
+    title: "Tourism Explorer App",
+    bullets: [
+      "Aplikasi eksplorasi destinasi wisata: daftar lokasi, halaman detail, dan fitur bookmark.",
+      "State management dengan Provider, konsumsi REST API eksternal via package http.",
+    ],
+    stack: ["Flutter", "Dart", "Provider", "REST API"],
+  },
+  {
+    id: "MOD-05",
+    tag: "Mobile — Flutter",
+    title: "Movie Catalog App",
+    bullets: [
+      "Aplikasi katalog film dengan daftar film populer dan halaman detail lengkap.",
+      "UI responsif dengan custom typography (Montserrat) untuk berbagai ukuran layar.",
+    ],
+    stack: ["Flutter", "Dart"],
+  },
+  {
     id: "MOD-04",
     tag: "Eksperimen Pribadi",
     title: "Smart Data Analytics & Auto-Report Generator",
