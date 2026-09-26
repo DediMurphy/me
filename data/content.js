@@ -74,6 +74,7 @@ export const projects = [
       "Frontend React 19 + Vite dengan Zustand untuk state management dan kalender jadwal interaktif (FullCalendar).",
     ],
     stack: ["React", "Vite", "Zustand", "Express.js", "Prisma", "MySQL", "JWT"],
+    repo: "https://github.com/DediMurphy/project_management",
   },
   {
     id: "MOD-09",
@@ -85,6 +86,7 @@ export const projects = [
       "State machine status pesanan dan price snapshot (price_at_order) agar riwayat pesanan tidak berubah saat harga produk diperbarui.",
     ],
     stack: ["Go", "Gin", "SQLite", "database/sql"],
+    repo: "https://github.com/DediMurphy/order-service",
   },
   {
     id: "MOD-08",
@@ -96,6 +98,7 @@ export const projects = [
       "Riwayat pesan tersimpan ke database dan notifikasi browser untuk pesan masuk.",
     ],
     stack: ["Go", "Fiber", "GORM", "MySQL", "WebSocket", "JWT"],
+    repo: "https://github.com/DediMurphy/simple-messaging-app",
   },
   {
     id: "MOD-07",
@@ -106,6 +109,7 @@ export const projects = [
       "Dibangun dengan Go dan Gin, penyimpanan data di MySQL, migrasi database lewat script SQL.",
     ],
     stack: ["Go", "Gin", "MySQL", "REST API"],
+    repo: "https://github.com/DediMurphy/blog-api",
   },
   {
     id: "MOD-06",
@@ -116,6 +120,7 @@ export const projects = [
       "State management dengan Provider, konsumsi REST API eksternal via package http.",
     ],
     stack: ["Flutter", "Dart", "Provider", "REST API"],
+    repo: "https://github.com/DediMurphy/RestourantApp",
   },
   {
     id: "MOD-05",
@@ -126,6 +131,7 @@ export const projects = [
       "UI responsif dengan custom typography (Montserrat) untuk berbagai ukuran layar.",
     ],
     stack: ["Flutter", "Dart"],
+    repo: "https://github.com/DediMurphy/Movies",
   },
   {
     id: "MOD-04",
@@ -137,6 +143,7 @@ export const projects = [
       "Validasi keamanan hanya mengizinkan query SELECT — mencegah eksekusi SQL destruktif.",
     ],
     stack: ["Next.js", "ASP.NET Core 8", "PostgreSQL", "Ollama", "TypeScript"],
+    repo: "https://github.com/DediMurphy/smart-analytics",
   },
   {
     id: "MOD-03",
@@ -159,6 +166,7 @@ export const projects = [
       "Integrasi Midtrans Payment Gateway untuk transaksi online yang aman.",
     ],
     stack: ["PHP", "CodeIgniter 3", "MySQL", "Midtrans"],
+    repo: "https://github.com/Tris-DigiSolutions/penitipan-hewan-web",
   },
   {
     id: "MOD-01",
@@ -170,6 +178,7 @@ export const projects = [
       "Meraih Top 50 Capstone Project Nasional dari 639 tim.",
     ],
     stack: ["Kotlin", "Jetpack Compose", "Retrofit", "Firebase"],
+    repo: "https://github.com/DediMurphy/SoulSupport",
   },
 ];
 

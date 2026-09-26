@@ -1,3 +1,4 @@
+import { Github } from "lucide-react";
 import { projects } from "@/data/content";
 import RevealOnScroll from "./RevealOnScroll";
 
@@ -33,7 +34,7 @@ export default function Projects() {
                   <li key={i}>{bullet}</li>
                 ))}
               </ul>
-              <div className="flex flex-wrap gap-2">
+              <div className="mb-4 flex flex-wrap gap-2">
                 {project.stack.map((s) => (
                   <span
                     key={s}
@@ -43,6 +44,16 @@ export default function Projects() {
                   </span>
                 ))}
               </div>
+              {project.repo && (
+                <a
+                  href={project.repo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 font-mono text-[12px] font-semibold text-brass-bright transition-colors hover:text-brass"
+                >
+                  <Github size={14} /> Lihat kode di GitHub
+                </a>
+              )}
             </article>
           ))}
         </RevealOnScroll>
