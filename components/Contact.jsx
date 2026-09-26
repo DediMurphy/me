@@ -1,4 +1,4 @@
-import { Mail, MessageCircle, Github, Linkedin } from "lucide-react";
+import { Mail, Github, Linkedin } from "lucide-react";
 import { profile } from "@/data/content";
 import RevealOnScroll from "./RevealOnScroll";
 
@@ -27,14 +27,6 @@ export default function Contact() {
               className="inline-flex items-center gap-2 rounded-lg bg-brass px-5 py-3 text-sm font-semibold text-[#1a1206] transition-transform hover:-translate-y-0.5 hover:bg-brass-bright"
             >
               <Mail size={15} /> {profile.email}
-            </a>
-            <a
-              href={profile.whatsapp}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-lg border border-line-strong px-5 py-3 text-sm font-semibold transition-transform hover:-translate-y-0.5 hover:border-text-dim"
-            >
-              <MessageCircle size={15} /> WhatsApp
             </a>
             <a
               href={profile.github}

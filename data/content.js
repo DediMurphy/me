@@ -3,9 +3,8 @@ export const profile = {
   location: "Kab. Bogor, Jawa Barat",
   email: "dedimurphy05@gmail.com",
   phone: "+6285694807231",
-  whatsapp: "https://wa.me/6285694807231",
   github: "https://github.com/DediMurphy",
-  linkedin: "#",
+  linkedin: "https://www.linkedin.com/in/dedi-murphy-8119bb238/",
   gpa: "3.85 / 4.00",
 };
 
